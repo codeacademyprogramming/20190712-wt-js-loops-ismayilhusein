@@ -1,0 +1,161 @@
+* {
+  text-decoration: none;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  height: 64px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bootstrapmade {
+  border-right: solid 1px rgba(128, 128, 128, 0.11);
+  padding-right: 10px;
+}
+
+.second .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.second .icon .button {
+  background-color: #00a6eb;
+  color: white;
+}
+
+.second .icon .button i {
+  color: white;
+}
+
+.second .icon li {
+  border: solid 1px rgba(128, 128, 128, 0.226);
+  padding: 13px 18px;
+  border-radius: 5px;
+  margin: 0 3px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.second .icon li:hover {
+  border-color: #00a6eb;
+}
+
+.second .icon li i {
+  color: rgba(128, 128, 128, 0.959);
+}
+
+.section-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.section-info .contact-info i {
+  color: #50d8af;
+}
+
+.section-info a {
+  color: #555;
+  padding: 10px 10px 0 0;
+  border-right: solid 1px rgba(128, 128, 128, 0.534);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.section-info a:hover {
+  color: rgba(85, 85, 85, 0.432);
+}
+
+.endsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 84px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.endsection h1 {
+  color: #0c2e8a;
+  font-size: 45px;
+  margin-left: 80px;
+}
+
+.endsection h1 span {
+  color: #50d8af;
+}
+
+.endsection .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.endsection .about .dropdown {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 10;
+  background-color: white;
+}
+
+.endsection .about .dropdown:hover .dropdownnn {
+  display: contents;
+  background-color: white;
+}
+
+.endsection .about .dropdown-menu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.endsection .about .dropdownnn {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  background-color: white;
+}
+
+.endsection .about .pink {
+  color: #50d8af;
+}
+
+.endsection .about li {
+  margin: 0 8px;
+}
+
+.endsection .about li a {
+  color: #555;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.endsection .about li a:hover {
+  color: #50d8af;
+}
+/*# sourceMappingURL=main.css.map */

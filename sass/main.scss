@@ -1,0 +1,130 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    height: 64px;
+    align-items: center;
+}
+    .bootstrapmade{
+        border-right:solid 1px rgba(128, 128, 128, 0.11);
+        padding-right: 10px;
+    }
+    .second{
+        .icon{
+            display: flex;
+            list-style: none;
+            .button{
+                background-color:#00a6eb;
+                color: white;
+                i{
+                    color: white;
+                }
+                
+            }
+            li{
+                border: solid 1px rgba(128, 128, 128, 0.226);
+                padding: 13px 18px;
+                border-radius: 5px;
+                margin:0 3px;
+                transition:1s;
+                &:hover{
+                    border-color: #00a6eb;
+                    
+                    
+                }
+                i{
+                    color: rgba(128, 128, 128, 0.959);
+                    
+                    }
+                }
+            }
+    }
+
+
+
+.section-info{
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    .contact-info i{
+        color: #50d8af;
+    }
+    a{
+        color: #555;
+        padding: 10px 10px 0 0;
+        border-right: solid 1px rgba(128, 128, 128, 0.534);
+        transition: all 1s;
+        &:hover{
+            color: rgba(85, 85, 85, 0.432);
+        }
+        
+    }
+}
+.endsection{
+    display: flex;
+    justify-content: space-around;
+    height: 84px;
+    align-items: center;
+    h1{
+        color: #0c2e8a;
+        font-size: 45px;
+        margin-left: 80px;
+        span{
+            color: #50d8af;
+        }
+    }
+    .about{
+        display: flex;
+        list-style: none;
+        .dropdown{
+            position: relative;
+            display: flex;
+            z-index: 10;
+            background-color: white;
+        }
+        
+        .dropdown:hover .dropdownnn{
+            display: contents;
+            background-color: white
+        }
+        
+        .dropdown-menu{
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .dropdownnn{
+            position: absolute;
+            display: none;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            
+        
+        }
+        
+        .pink{
+            color: #50d8af;
+        }
+        li{
+            margin:0 8px;
+            a{
+                color: #555;
+                transition: all 0.8s;
+                &:hover{
+                    color: #50d8af;
+                }
+            }
+            
+        }
+    }
+}
